@@ -1,23 +1,38 @@
+/* o * quer dizer TUDO dentro do HTML, é sempre bom começar atribuido os valores 0 para padding e margin  */
 *{
   padding: 0;
   margin: 0;
 }
 header{
-  
+  font-family: Arial;
+}
+
+main{
+  font-family: Helvetica;
+  background-color: aqua;
+
 }
 
 section{
-  float: left;
+  /*float: left;*/
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
+  /*width: 840px; recebemos assim, mas vamos trabalhar com unidades reponsivas
+  padding: 40px; */
+  /* vw é a % da tela logo 1vw é 1% da tela ou do view port*/
+  /* % é a porcentagem do elemento pai - nesse exemplo é Main já que a section está dentro da main*/
+  width: 50vw;
   padding: 40px;
+  background-color: brown;
+
+
 }
 
 aside{
-  float:right;
+  /*float:right;*/
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
   padding: 20px;
   width: 340px;
+  background-color: chartreuse;
 }
 
 article{
